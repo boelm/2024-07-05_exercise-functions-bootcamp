@@ -1,12 +1,15 @@
 /** Övning 1 */
 console.log(`%cÖvning 1`,'font-weight:bold');
-// console.log(lengthOfString(string) => {
+let string = "hej";
+// length = lengthOfString1(string) => {
 //     return string.length;
-//   });
-// let lengthOfString = lengthOfString() => {
+//   };
+//   () => {
+//     statements
+//   }
+// console.log(length);
 
-// }
-console.log(lengthOfString("hej"));
+console.log(`${string} har längden ${lengthOfString(string)}`);
 
 function lengthOfString(string){
     return string.length;
@@ -14,6 +17,11 @@ function lengthOfString(string){
 /** Övning 2 */
 console.log(`%cÖvning 2`,'font-weight:bold');
 // console.log(year('2019-10-14'));
+string = '2019-10-14';
+console.log(`${string} har året ${returnYear(string)}`);
+function returnYear(string){
+    return string.substring(0,4);
+}
 
 /** Övning 3 */
 console.log(`%cÖvning 3`,'font-weight:bold');
@@ -72,3 +80,7 @@ calculate(10, 'Hej');
 
 /** Övning 4 */
 console.log(`%cÖvning 4`,'font-weight:bold');
+/** Övning 5 */
+console.log(`%cÖvning 3`,'font-weight:bold');
+/** Övning 6 */
+console.log(`%cÖvning 3`,'font-weight:bold');
